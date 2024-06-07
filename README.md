@@ -1,1 +1,1 @@
-# PersonalWebsite
+# Personal website built using HTML, CSS, and JavaScript. This personal website includes a Home page, About page, and Portfolio page.
