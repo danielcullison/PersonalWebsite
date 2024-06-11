@@ -1,19 +1,30 @@
 * {
     background-color:rgb(243, 236, 228);
 }
-nav {
-    text-align: right;
-    font-size: 22px;
+header {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    font-size: 25px;
 }
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    width: 100px;
+}
+
 a {
     color: rgb(148, 183, 214);
     font-weight: bold;
+    text-decoration: none;
 }
 
 main {
     text-align: center;
-    margin-top: 5%;
+    margin-top: 10%;
 }
+
 #headshot {
     height: 275px;
     border-radius: 50%;
