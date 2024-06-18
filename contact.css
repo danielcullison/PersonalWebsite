@@ -24,19 +24,38 @@ a {
     text-decoration: none;
 }
 
-h1 {
-    font-weight: normal;
-    font-size: 35px;
+.header {
     color: rgb(121, 116, 116);
 }
 
-h2 {
-    color: rgb(148, 183, 214);
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    color: rgb(121, 116, 116);
+    font-size: 25px;
     font-weight: bold;
 }
 
-p {
-    color: rgb(121, 116, 116);
-    font-size: 20px;
+#name {
+    height: 25px;
 }
 
+#email {
+    height: 25px;
+}
+
+#message {
+    height: 75px;
+}
+
+#submit {
+    height: 20px;
+    width: 70px;
+    margin-top: 10px;
+}
